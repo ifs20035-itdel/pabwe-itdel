@@ -1,0 +1,40 @@
+<!-- 
+    Nama File   : loginval.html
+    NIM         : 11S20035
+    Kelas       : 13IF2
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+</head>
+<body style="font-family: Calibri;">
+    <img src="./profile.jpg" width="200px">
+    <fieldset style="width: 600px">
+        <h1 style="color:DarkBlue"><u>Form Login</u></h1>
+        <hr>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Masukkan akun anda disini</legend>
+                <table>
+                    <tr>
+                        <td><label><b>Username  : </b></label></td>
+                        <td><input type="" name="txtUser" maxlength="8" placeholder="Username"><br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label><b>Password  : </b></label></td>
+                        <td><input type="text" minlength="8" name="txtPasswd"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password"
+                            title="Minimal 8 karakter, 1 huruf besar, 1 huruf kecil,  dan 1 angka" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="button_login" value="Submit"></td>
+                        <td><a href="./register.html">Forgot username/password</a></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form> 
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.main{
+    width: 1024px;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    max-width: 1024px;
+}
+.welcome{
+    font-size: 48px;
+}
+header{
+    display: flex;
+    border: 1px black solid;
+    background-color: grey;
+    width: 1024px;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.loginval{
+    padding: 10px;
+}
+.del{
+    padding: 10px;
+    width: 150px;
+}
+.head{
+font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+}
+.isi{
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    font-size: 20px;
+    justify-content: space-between;
+}
+article{
+    width: 750px;
+    height: auto;
+    border: 1px black solid;
+}
+.pic{
+    margin-right: 20px;
+    height: 240px;
+}
+nav{
+    width: 264px;
+    height: auto;
+    font-size: 18px;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    border: 1px black solid;
+}
+footer {
+    font-size: 28px;
+    background-color: grey;
+    max-width: 1024px;
+    padding: 10px;
+    text-align: center;
+    border: 1px black solid;
+  }
